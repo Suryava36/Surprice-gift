@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Our Love Story</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 💌 Tricky Intro Page -->
+  <div id="intro-screen">
+    <div class="intro-box">
+      <h1>Hey, My loved Pupu 💕</h1>
+      <p>Are you ready for a little surprise?</p>
+      <button onclick="enterSite()">Click to Unlock 💖</button>
+    </div>
+  </div>
+
+  <!-- 💞 Main Content -->
+  <div id="main-content" class="hidden">
+
+    <!-- 🎶 Music Control -->
+    <audio id="bg-music" loop>
+      <source src="audio/music.mp3" type="audio/mp3" />
+    </audio>
+    <button id="music-btn" onclick="toggleMusic()">🔊</button>
+
+    <!-- ❤️ Floating Hearts -->
+    <div class="hearts"></div>
+    <div class="stars"></div>
+
+    <!-- 📸 Slideshow -->
+    <div class="slideshow-container" id="slideshow">
+      <!-- JS will populate 25 images -->
+    </div>
+
+    <!-- 💌 Romantic Message -->
+    <div class="message-box">
+      <h2>To My Beautiful Loved Pupu,</h2>
+      <p>
+        Every moment with you is a piece of forever.  
+        These memories are just a glimpse of the love we share.  
+        I made this for you — because you deserve the world.  
+        I love you more than words can say. ❤️
+      </p>
+
+      <!-- 💌 Romantic Message -->
+<div class="message-box">
+  <h2>Happy Girlfriend Day, My Love ❤️</h2>
+  <p>
+    You’re not just my girlfriend — you’re my happiness, my peace, and the reason behind my biggest smiles.<br><br>
+    Every moment with you feels like magic, and every memory we've made is a piece of my heart.<br><br>
+    I feel so lucky to have you — your love, your laughter, your little quirks — everything about you makes my world better.<br><br>
+    <strong>I love you so much, more than words could ever say.</strong><br><br>
+    Here's to us, forever and always. 💖
+  </p>
+</div>
+</div>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
